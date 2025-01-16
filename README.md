@@ -11,13 +11,13 @@ A simple module providing basic vibration feedback for connected gamepads. It do
 
 
 **Example Usage:**
-```
+```luau
 local EasyVibration = require(game.ReplicatedStorage.EasyVibration)
 EasyVibration.Vibrate("s", 100, 1, false)
 ```
 
 **Stopping Vibrations:**
-```
+```luau
 EasyVibration.Stop("s") -- Stops small motor vibration
 EasyVibration.Stop("l") -- Stops large motor vibration
 EasyVibration.Stop("")  -- Stops both if no motor specified
